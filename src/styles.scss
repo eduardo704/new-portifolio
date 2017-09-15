@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+// @import 'foundation-flex';
+@import "settings";
+// @import "foundation/components/global";
+@import "../node_modules/foundation-sites/assets/foundation";
+// @import "../node_modules/foundation-sites/scss/grid/grid";
+// @import "util/util";
+//@import 'foundation-icons';
+@include foundation-xy-grid-classes;
+@include foundation-flex-classes;
+@include foundation-flex-grid;
